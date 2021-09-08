@@ -1,0 +1,97 @@
+(IN EMMET THE CURSOR SHOULD ALWAYS BE AT LAST OF THE WORD)
+
+
+div+p+blockquotes    --- div after i want p then i want blockquotes
+div+div>p>span>em    --- div after div then we want p inside that div and then span inside the p then emphasize
+                        inside that span
+
+
+span>em^bq            --- it means inside of span there will be emphasize tag and ^ means go one level up
+                            and write the tag blockquotes
+
+
+div#header  or  #header     --- get div with id header.  (if we write only #header then automatically understood)
+
+.mainClass                  --- it will create mainClass with div
+
+
+ul>li*8                     --- it will create 8 li inside ul
+
+ul>li.item$*4               --- it will create 4 li with class item1,item2... inside ul ($ specifies the number)
+
+                                we can use multiple $ to get the more than one digit 
+
+@-                          --- it means start from the decreasing order 
+@1                          --- it will go from 1 
+                                we always have to use * in order to write numbering 
+                            
+p[title="hello world"]      ---  to give custom content
+
+a{Click me}                 --- put content embraced by anchor tag
+
+lorem                       --- it will give paragraph
+
+lorem10                     --- it will give lorem 10 words
+
+ul.listcontainer-li>lorem3.item$*5      --- it will create conventional ul and li with different item
+                                            class with 3 lorem ipsum words
+
+div>(header>ul>li*3>a)+(footer>h1>p)    --- this way we can add multiple tags including all tags inside of them
+
+html:4xt                                --- html 4 extended xhtml
+
+a:link                                  ---  to generate link like http://
+
+link:css                                --- will provide stylesheet link tag
+
+link:favicon                            --- will provide favicon link tag
+
+
+img:src
+script:src                              --- with src attribute it will appear
+
+input:email                             --- with email type input from
+
+button:disabled                         --- button disabled
+
+button:submit                           --- buttom submit
+
+meta:utf
+meta:vp
+
+mt:a                                    --- margin top auto
+mr:20px
+mb:20px
+ml:20px
+
+pt:a                                    --- padding top auto
+pr:90px
+pl:87px;
+pb:78px;
+
+bg                                      --- background
+bg+                                     --- entire background property
+
+c:ra                                    --- color in rgba
+
+bxz  :bb                                   --- box sizing : border-box
+
+fw                                      --- font-weight
+fs
+fz
+ff
+
+
+bds:n
+
+
+
+
+
+
+
+
+
+
+
+
